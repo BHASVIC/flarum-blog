@@ -8,6 +8,7 @@ import LanguageDropdown from "../components/LanguageDropdown/LanguageDropdown";
 import ForumNav from "../components/ForumNav";
 import FeaturedBlogItem from "../components/FeaturedBlogItem";
 import BlogOverviewItem from "../components/BlogOverviewItem";
+import humanTime from "flarum/common/helpers/humanTime";
 
 export default class BlogOverview extends Page {
   oninit(vnode) {
